@@ -16,7 +16,7 @@ pipeline{
      }
       stage('docker push'){
                  steps{
-                    bat "docker push cibithangaraj/jenkSamp"
+                    bat "docker push cibithangaraj/jenksamp"
                  }
       }
     }
