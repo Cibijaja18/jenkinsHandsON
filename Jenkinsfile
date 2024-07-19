@@ -11,7 +11,7 @@ pipeline{
     }
      stage('build docker image'){
             steps{
-               bat "docker build -t=cibithangaraj/jenkSamp .
+               bat "docker build -t=cibithangaraj/jenkSamp ./
             }
      }
       stage('docker push'){
